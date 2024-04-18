@@ -70,6 +70,7 @@ class Orden {
 let producto1 = new Producto("Pantalon", 13000);
 let producto2 = new Producto("Camisa", 10000);
 let producto3 = new Producto("Zapatillas", 30000);
+let producto4 = new Producto("Gorra", 8000)
 
 let orden1 = new Orden();
 orden1.agregarProducto(producto1);
@@ -82,6 +83,5 @@ orden2.agregarProducto(producto3);
 orden2.agregarProducto(producto1);
 orden2.agregarProducto(producto2);
 orden2.agregarProducto(producto2);
-orden2.agregarProducto(producto1);
-
+orden2.agregarProducto(producto4);
 orden2.mostrarOrden();
